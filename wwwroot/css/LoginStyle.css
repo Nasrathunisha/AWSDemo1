@@ -1,0 +1,98 @@
+﻿.login {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 550px;
+    margin: 0 auto 80px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.3s;
+    border-radius: 6px;
+}
+
+.loginParent {
+    max-width: 400px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.login:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.button {
+    width: 100%;
+    background-color: #04396d;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 9px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.textBox {
+    font-size: 12px;
+    width: 100%;
+    padding: 7px 20px;
+    display: inline-block;
+    border: 1.1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #e7eef4;
+}
+
+    .textBox:hover {
+        background-color: #f5f4f4;
+    }
+
+#container {
+    margin-top: 0px;
+}
+
+    #container .row {
+        display: flex;
+    }
+
+.spin-row {
+    position: initial;
+    height: 40px;
+    width: 120px;
+}
+
+#container .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.fabric-dark .e-spinner-pane .e-spinner-inner .e-spin-fabric .e-path-circle {
+    stroke: rgba(0, 116, 204, 0.4);
+}
+
+.alert {
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: red;
+    /*height: 10px;*/
+    padding: 0rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 0.9em;
+}
+
+.alert-success {
+    color: #039624 !important;
+}

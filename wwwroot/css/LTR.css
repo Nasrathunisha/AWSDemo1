@@ -1,0 +1,10 @@
+﻿body {
+    direction:ltr;
+}
+label {
+    float: left;
+    text-align: left;
+}
+.e-headertext{
+    float:left;
+}

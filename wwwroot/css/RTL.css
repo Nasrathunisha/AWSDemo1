@@ -1,0 +1,10 @@
+﻿body {
+    direction:rtl;
+}
+label {
+    float: right;
+    text-align:right;
+}
+.e-headertext {
+    float: right;
+}
